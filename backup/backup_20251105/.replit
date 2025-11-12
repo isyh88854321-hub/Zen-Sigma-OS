@@ -1,0 +1,17 @@
+run = "bash run.sh"
+entrypoint = "index.mjs"
+modules = ["nodejs-20"]
+
+[env]
+NODE_ENV = "development"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[nix]
+packages = ["nodejs-20_x", "npm"]
+
+[agent]
+expertMode = true
+run = "bash run.sh && node modules/chrono_core.mjs"

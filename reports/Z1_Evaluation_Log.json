@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2025/11/11 2:11:20",
+    "grade": "C",
+    "score": null
+  },
+  {
+    "timestamp": "2025/11/11 2:22:42",
+    "grade": "A",
+    "score": 95
+  },
+  {
+    "timestamp": "2025/11/10 17:36:06",
+    "grade": "S",
+    "score": 97.17
+  },
+  {
+    "timestamp": "2025/11/10 17:38:15",
+    "grade": "S",
+    "score": 97.17
+  },
+  {
+    "timestamp": "2025/11/10 17:49:30",
+    "grade": "S",
+    "score": 97.17
+  },
+  {
+    "timestamp": "2025/11/10 18:32:35",
+    "grade": "S",
+    "score": 97.17
+  },
+  {
+    "timestamp": "2025/11/10 18:58:05",
+    "grade": "S",
+    "score": 97.17
+  },
+  {
+    "timestamp": "2025/11/10 19:02:29",
+    "grade": "S",
+    "score": 97.17
+  }
+]

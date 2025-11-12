@@ -1,0 +1,28 @@
+{
+  "name": "zen-webchat",
+  "version": "1.0.0",
+  "description": "Local Zen AI Web Chat Server",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.cjs"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "zen",
+    "ai",
+    "chat",
+    "local"
+  ],
+  "author": "Office Allzen.",
+  "license": "MIT"
+}

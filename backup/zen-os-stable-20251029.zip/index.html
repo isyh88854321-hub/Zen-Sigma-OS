@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAIDEN ZEN // Tactical Neural Core</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 50% 20%, #0a0f14 0%, #010203 90%);
+      color: #9ad4ff;
+      font-family: 'Orbitron', sans-serif;
+      overflow: hidden;
+    }
+    .hud {
+      position: relative;
+      padding: 50px;
+      width: 80%;
+      margin: 60px auto;
+      border: 1px solid rgba(0, 255, 255, 0.4);
+      border-radius: 10px;
+      background: rgba(10, 20, 30, 0.5);
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #00f6ff;
+      text-shadow: 0 0 10px #00b8ff, 0 0 20px #0070ff;
+      font-size: 2.2em;
+      letter-spacing: 2px;
+    }
+    h2 {
+      color: #8ad3ff;
+      text-shadow: 0 0 8px #0077aa;
+      margin-top: 40px;
+      font-size: 1.1em;
+      border-left: 3px solid #00f6ff;
+      padding-left: 10px;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 0.9em;
+      margin: 10px 0 30px 20px;
+      color: #b5cde5;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #6fa9ff;
+      text-shadow: 0 0 10px #0055ff;
+    }
+    .lightning {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://i.imgur.com/z0z9vGo.png');
+      opacity: 0.1;
+      mix-blend-mode: screen;
+      animation: flash 6s infinite ease-in-out;
+      pointer-events: none;
+    }
+    @keyframes flash {
+      0%, 90% {opacity: 0.05; filter: brightness(0.7);} 
+      95% {opacity: 0.4; filter: brightness(2);} 
+      100% {opacity: 0.1; filter: brightness(0.8);} 
+    }
+  </style>
+</head>
+<body>
+  <div class="lightning"></div>
+  <div class="hud">
+    <h1>RAIDEN ZEN // Tactical Neural Core</h1>
+    <h2>MISSION LOG</h2>
+    <p>作戦・司令記録を表示中...</p>
+    <h2>NEURAL MAP</h2>
+    <p>人物・任務・構造の関係を可視化。</p>
+    <h2>SYSTEM CORE MONITOR</h2>
+    <p>稼働率・演算負荷・安定性を監視。</p>
+    <h2>STRATEGY TREE</h2>
+    <p>進行中の戦略層を分析。</p>
+    <h2>MEMORY ARCHIVE</h2>
+    <p>記録されたSigma Memoryを管理。</p>
+  </div>
+  <footer>© RAIDEN ZEN // vΣ.1 Tactical Neural Core Interface</footer>
+</body>
+</html>

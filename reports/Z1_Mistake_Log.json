@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2025/11/11 5:01:35",
+    "event": "初期確認テスト",
+    "penalty_total": 1
+  },
+  {
+    "timestamp": "2025/11/11 5:16:42",
+    "event": "貼付箇所未記載",
+    "penalty_total": 1
+  },
+  {
+    "timestamp": "2025/11/11 5:37:03",
+    "event": "貼付箇所明記忘れ・構造ルール違反",
+    "penalty_total": 10
+  }
+]

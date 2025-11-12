@@ -1,0 +1,22 @@
+import fs from "fs";
+
+const mistakeLogPath = "./Z1_Mistake_Log.json";
+
+export function recordMistake(event, penalty) {
+  const entry = {
+    timestamp: new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }),
+    event,
+    penalty_total: penalty,
+  };
+  let logs = [];
+  if (fs.existsSync(mistakeLogPath)) {
+    try {
+      logs = JSON.parse(fs.readFileSync(mistakeLogPath, "utf-8"));
+    } catch (e) {
+      console.error("JSON parse error:", e.message);
+    }
+  }
+  logs.push(entry);
+  fs.writeFileSync(mistakeLogPath, JSON.stringify(logs, null, 2));
+  console.log(`🧾 Mistake logged: ${event}（累計: ${penalty}）`);
+}
