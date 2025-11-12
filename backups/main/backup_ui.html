@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Backup Manual UI</title>
+    <style>
+      body {
+        font-family: monospace;
+        background: #111;
+        color: #ddd;
+        padding: 20px;
+      }
+      code {
+        background: #222;
+        padding: 4px 6px;
+        border-radius: 4px;
+        display: block;
+        margin: 6px 0;
+      }
+      input[type="checkbox"] {
+        transform: scale(1.3);
+        margin-right: 10px;
+      }
+      h2 {
+        color: #6cf;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>🧠 Phase7-1 バックアップ手順（クリックでチェック）</h2>
+
+    <label><input type="checkbox" />pwd（シェル）<code>pwd</code></label>
+    <label
+      ><input type="checkbox" />cd ~/workspace（シェル）<code
+        >cd ~/workspace</code
+      ></label
+    >
+    <label><input type="checkbox" />ls（シェル）<code>ls</code></label>
+    <label
+      ><input type="checkbox" />mkdir -p SigmaMemory/backup（シェル）<code
+        >mkdir -p SigmaMemory/backup</code
+      ></label
+    >
+    <label
+      ><input type="checkbox" />mkdir -p
+      SigmaMemory/backup/backup_20251106_001700_Phase7-1_BOSS19（シェル）<code
+        >mkdir -p SigmaMemory/backup/backup_20251106_001700_Phase7-1_BOSS19 &&
+        echo "✅ backup folder created"</code
+      ></label
+    >
+    <label
+      ><input type="checkbox" />ls -R SigmaMemory/backup（シェル）<code
+        >ls -R SigmaMemory/backup</code
+      ></label
+    >
+
+    <p>✅ チェックが全て入ったらバックアップ作業完了。</p>
+  </body>
+</html>
