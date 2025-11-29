@@ -1,0 +1,15 @@
+    PID CMD                         %CPU %MEM
+      1 /nix/store/spcknz8ny8fpfwaf  1.1  0.1
+     16 pid2 --no-deprecation --use  0.3  0.7
+    715 /nix/store/lz7iav1hd92jbv44  0.1  0.1
+   3018 bash --rcfile /nix/store/ls  0.1  0.0
+   3120 /nix/store/r1smm331j6crqs02  0.0  0.1
+   3121 /nix/store/r1smm331j6crqs02  0.0  0.1
+   3134 /nix/store/r1smm331j6crqs02  0.0  0.1
+   3087 /nix/store/r1smm331j6crqs02  0.0  0.0
+   3062 /nix/store/25rasmkzxdlxf3w5  0.0  0.0
+    717 /nix/store/lz7iav1hd92jbv44  0.0  0.0
+    718 /nix/store/lz7iav1hd92jbv44  0.0  0.0
+    282 import fs from fs            0.0  0.0
+    716 /nix/store/lz7iav1hd92jbv44  0.0  0.0
+    707 bash SigmaCore/persistent.s  0.0  0.0

@@ -1,0 +1,1 @@
+import os from 'os'; import fs from 'fs'; setInterval(()=>{const t=new Date().toISOString();const cpu=os.loadavg()[0];const mem=(1-os.freemem()/os.totalmem())*100;fs.appendFileSync('../logs/system_monitor.log',`[${t}] CPU:${cpu.toFixed(2)} MEM:${mem.toFixed(1)}%\n`);},10000);

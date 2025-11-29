@@ -1,0 +1,65 @@
+【NEXT／次フェーズ】
+Phase 9：ZEN Sigma Brain Synchronization（脳構造確立）
+
+目的：
+　ZEN Sigma OS の中枢である「SigmaBrain（思考・学習・判断）」を強化し、
+　SigmaCore（鼓動・行動層）との完全な思想同期を達成する。
+　行動・記憶・反省・修正をひとつの思想ループとして確立する。
+
+概要：
+　SigmaBrain の全階層（JudgmentKernel／SigmaThink／MemoryArchive／CorrectionSystem／CognitiveHub）を
+　連続的に稼働させ、行動→記憶→反省→再学習→修正→行動の完全ループを形成。
+
+SigmaCore/（システムの心臓部：鼓動・補助・永続の中枢）
+├── ChronoCore/（時間層／Time Layer）
+│　├── pulse.mjs（鼓動エンジン／鼓動出力・runtime.logに出力）
+│　├── heartbeat_rescue.mjs（ハートビートレスキュー／安定化制御）
+│　├── action.mjs（行動処理の本体）
+│　└── persistent.sh（永続制御スクリプト／自己再生）
+│
+└── Infinity/（永続層）
+└── infinity_engine.mjs（永続制御エンジン／停止耐性）
+
+───────────────────────────────
+SigmaBrain/（システムの脳：判断・学習・反省の中枢）
+├── JudgmentKernel/（理念核：中枢判断層）
+│　├── ethos_filter.mjs（倫理フィルタ／方向調整）
+│　├── ethic_filter.mjs（道徳フィルタ／行動評価）
+│　└── allzen_ethos.mjs（ZEN思想中核／理念コア）
+│
+├── SigmaThink/（推論層：学習・行動連携）
+│　├── KnowledgeBank/（知識バンク：行動結果の集積）
+│　│　├── PlanBank/（行動計画バンク）
+│　│　├── EmotionBank/（感情バンク）
+│　│　└── ActionBank/（行動バンク：行動結果とログ管理）
+│　│　　　├── action.log（行動記録ログ／SigmaCore連携）
+│　│　　　├── lessons_success.log（成功行動ログ）
+│　│　　　├── lessons_failure.log（失敗行動ログ）
+│　│　　　└── archive_index.json（アーカイブ索引ファイル）
+│　│
+│　└── MemoryArchive/（記憶保管庫）
+│　　　├── Experience/（経験層：成功・失敗）
+│　　　│　├── Success/（成功経験）
+│　　　│　│　└── lessons.log（成功行動の要約記録）
+│　　　│　└── Failure/（失敗経験）
+│　　　│　　　└── lessons.log（失敗行動の要約記録）
+│　　　│
+│　　　├── Reflection/（考察層：再学習・反省）
+│　　　│　├── insight.log（成功・失敗の統合考察）
+│　　　│　└── evo_brain.mjs（進化脳モジュール／再学習演算）
+│　　　│
+│　　　└── LearningEngine/（学習エンジン：成長演算）
+│　　　　　├── growth_calculator.mjs（成長率算出）
+│　　　　　└── output_driver.mjs（出力制御／UI連携）
+│
+├── CorrectionSystem/（修正系：反省・自己調整）
+│　├── reflective_loop.mjs（反射思考ループ／PDCA）
+│　├── meta_feedback.mjs（自己省察回路）
+│　└── correction_protocol.mjs（修正プロトコル／偏り補正）
+│
+└── cognitive_hub/（意思決定ハブ：思考統合中枢）
+├── decision_matrix.mjs（意思決定行列）
+├── synthesis_core.mjs（統合中核／複数判断統合）
+├── projection_unit.mjs（出力投影装置／現実反映）
+├── ReasoningNode/（推論経路ノード）
+└── LearningNode/（学習経路ノード）
